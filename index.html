@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mantenimiento y reparación de calderas en Puebla | Calderas Sánchez</title>
-<meta name="description" content="Compañía Industrial Calderas Sánchez: montaje, mantenimiento y reparación de todo tipo de calderas, aislamiento de tuberías e intercambiadores de calor. Puebla y servicio en todo México. Tel. 222 220 5370.">
+<meta name="description" content="Calderas Sánchez: montaje, mantenimiento y reparación de calderas industriales, refacciones y tubo flux ASTM A178. Puebla y todo México. Cel. y WhatsApp 222 378 2136.">
 <link rel="canonical" href="https://www.calderassanchez.com/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_MX">
@@ -21,7 +21,7 @@
   "@type": "LocalBusiness",
   "name": "Compañía Industrial Calderas Sánchez",
   "url": "https://www.calderassanchez.com/",
-  "telephone": "+52 222 220 5370",
+  "telephone": "+52 222 378 2136",
   "image": "https://www.calderassanchez.com/logo-oscuro.png",
   "address": {
     "@type": "PostalAddress",
@@ -32,7 +32,7 @@
     "addressCountry": "MX"
   },
   "areaServed": "MX",
-  "description": "Montaje, mantenimiento y reparación de calderas industriales, aislamiento de tuberías e intercambiadores de calor."
+  "description": "Montaje, mantenimiento y reparación de calderas industriales, aislamiento de tuberías, intercambiadores de calor y venta de refacciones para calderas."
 }
 </script>
 
@@ -140,6 +140,20 @@ p{margin:0 0 1em}
 .ficha-fila a{justify-self:end;font-weight:600;font-size:.95rem;white-space:nowrap;color:var(--rojo);text-underline-offset:4px}
 .ficha-fila a:hover{color:var(--rojo-osc)}
 
+/* Refacciones */
+.refacciones{display:grid;grid-template-columns:repeat(3,1fr);gap:2.6rem 3rem}
+.grupo{border-top:3px solid var(--hierro);padding-top:1.1rem;display:flex;flex-direction:column}
+.grupo h3{font-size:1.6rem;margin-bottom:.5rem}
+.grupo ul{list-style:none;padding:0;margin:0 0 1rem}
+.grupo li{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding:.55rem 0;border-bottom:1px solid #C8CDCB;font-size:.97rem;line-height:1.4}
+.grupo li code{font:600 .8rem/1.4 var(--texto);color:var(--acero);white-space:nowrap;letter-spacing:.03em}
+.grupo .nota{color:var(--acero);font-size:.92rem;margin:0 0 1rem}
+.grupo .cotizar{margin-top:auto;display:inline-flex;align-items:center;gap:.5em;min-height:44px;font-weight:600;font-size:.95rem;color:var(--rojo);text-underline-offset:4px}
+.grupo .cotizar svg{width:18px;height:18px}
+.grupo .cotizar:hover{color:var(--rojo-osc)}
+.contacto-acciones{margin:-.4rem 0 1.8rem}
+.contacto .btn-linea{color:#fff}
+
 /* Señales */
 .senales{display:grid;grid-template-columns:repeat(2,1fr);gap:0 4rem;list-style:none;padding:0;margin:0}
 .senales li{display:grid;grid-template-columns:28px 1fr;gap:1rem;padding:1.3rem 0;border-bottom:1px solid #C8CDCB}
@@ -230,6 +244,7 @@ p{margin:0 0 1em}
   .ficha-fila{grid-template-columns:1fr;gap:.5rem}
   .ficha-fila a{justify-self:start}
   .equipos{grid-template-columns:repeat(2,1fr)}
+  .refacciones{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:700px){
   body{padding-bottom:68px}
@@ -244,6 +259,7 @@ p{margin:0 0 1em}
   .proceso li+li{padding-top:2rem;border-top:1px solid #C8CDCB}
   .proceso .num{font-size:3.4rem}
   .equipos{grid-template-columns:1fr}
+  .refacciones{grid-template-columns:1fr}
   .campos{grid-template-columns:1fr}
   .datos{grid-template-columns:1fr}
   .lista-contacto li{grid-template-columns:1fr;gap:.2rem}
@@ -267,9 +283,9 @@ p{margin:0 0 1em}
      Confirmados (letrero + directorio Cosmos):
        Nombre: Compañía Industrial Calderas Sánchez
        Dirección: Calle 50 Pte. No. 918, Col. Santa María, C.P. 72070, Puebla, Pue.
-       Teléfono fijo: 222 220 5370
+       Celular y WhatsApp: 222 378 2136 (el fijo NO se publica, decisión del cliente 2026-11-03)
        Cobertura: Puebla y servicio a nivel nacional
-     PENDIENTES: WhatsApp, correo, horario, años de experiencia, fotos reales.
+     PENDIENTES: correo, horario, años de experiencia, fotos reales.
      ========================================================= -->
 
 <header class="encabezado">
@@ -279,13 +295,14 @@ p{margin:0 0 1em}
     </a>
     <nav class="nav" aria-label="Principal">
       <a href="#servicios">Servicios</a>
+      <a href="#refacciones">Refacciones</a>
       <a href="#senales">Cuándo llamar</a>
       <a href="#proceso">Cómo trabajamos</a>
       <a href="#empresa">La empresa</a>
       <a href="#contacto">Contacto</a>
     </nav>
-    <a class="btn btn-rojo" href="tel:+522222205370" data-ubicacion="encabezado" aria-label="Llamar al 222 220 5370">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><span class="txt">222 220 5370</span>
+    <a class="btn btn-rojo" href="tel:+522223782136" data-ubicacion="encabezado" aria-label="Llamar al 222 378 2136">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><span class="txt">222 378 2136</span>
     </a>
   </div>
 </header>
@@ -298,8 +315,8 @@ p{margin:0 0 1em}
         <h1>Mantenimiento y reparación de calderas industriales en Puebla</h1>
         <p class="entrada">Montaje, mantenimiento preventivo y reparación de todo tipo de calderas. También aislamiento de tuberías e intercambiadores de calor. Atendemos en su planta, en Puebla y en todo el país.</p>
         <div class="acciones">
-          <a class="btn btn-rojo" href="tel:+522222205370" data-ubicacion="hero"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg> Llamar al 222 220 5370</a>
-          <a class="btn btn-linea" href="#contacto" data-ubicacion="hero">Solicitar una visita</a>
+          <a class="btn btn-rojo" href="tel:+522223782136" data-ubicacion="hero"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg> Llamar al 222 378 2136</a>
+          <a class="btn btn-linea" href="https://wa.me/522223782136?text=Hola%2C%20les%20escribo%20desde%20su%20sitio%20web." target="_blank" rel="noopener" data-ubicacion="hero"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.9-.9L3 20.5l1.6-4.8A8.4 8.4 0 0 1 3.6 11.5 8.5 8.5 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg> WhatsApp</a>
         </div>
         <p class="direccion-hero"><strong>Taller:</strong> Calle 50 Poniente 918, Col. Santa María, Puebla, Pue. C.P. 72070</p>
       </div>
@@ -403,14 +420,100 @@ p{margin:0 0 1em}
         </div>
         <div class="ficha-fila">
           <h3>Accesorios para calderas</h3>
-          <p>Suministro e instalación de accesorios y refacciones para su equipo.</p>
-          <a href="#contacto" data-servicio="Accesorios y refacciones">Consultar</a>
+          <p>Venta e instalación de refacciones: controles de flama, encendido, nivel de agua, válvulas, instrumentos y tubo flux.</p>
+          <a href="#refacciones">Ver refacciones</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="seccion alterna" id="senales" aria-labelledby="t-senales">
+  <section class="seccion alterna" id="refacciones" aria-labelledby="t-refacciones">
+    <div class="envoltura">
+      <div class="cabeza">
+        <h2 id="t-refacciones">Refacciones y materiales para calderas</h2>
+        <p>Surtimos las piezas que más fallan en quemadores, controles y líneas de vapor. Precio y existencia se confirman al cotizar.</p>
+      </div>
+      <!-- Lista transcrita de las notas a mano del cliente (2026-11-03). VALIDAR con él los códigos,
+           sobre todo "Serie R7800", Q3450 y las series 157S / 150S. Sin marcas hasta que confirme si son originales. -->
+      <div class="refacciones">
+        <div class="grupo">
+          <h3>Tubería</h3>
+          <ul>
+            <li><span>Tubo flux de acero al carbón con costura</span><code>ASTM A178</code></li>
+          </ul>
+          <p class="nota">Diámetros, calibres y largos a solicitud. Se entrega con el certificado de calidad del fabricante.</p>
+          <a class="cotizar" href="https://wa.me/522223782136?text=Hola%2C%20quiero%20cotizar%20refacciones%20de%3A%20Tuber%C3%ADa" target="_blank" rel="noopener" data-ubicacion="refacciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.9-.9L3 20.5l1.6-4.8A8.4 8.4 0 0 1 3.6 11.5 8.5 8.5 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg> Cotizar por WhatsApp</a>
+        </div>
+        <div class="grupo">
+          <h3>Control de combustión y flama</h3>
+          <ul>
+            <li><span>Control primario y programador</span><code>Serie 7800</code></li>
+            <li><span>Amplificador de flama</span><code>Serie R7800</code></li>
+            <li><span>Módulo de display</span><code>S7800A2142</code></li>
+            <li><span>Módulo de comunicación Modbus</span><code>S7810M1003</code></li>
+            <li><span>Subbase universal de cableado</span><code>Q7800</code></li>
+            <li><span>Detector de flama tipo fotocelda</span><code>C7027A1049</code></li>
+            <li><span>Fotoceldas detectoras de flama</span></li>
+          </ul>
+          <a class="cotizar" href="https://wa.me/522223782136?text=Hola%2C%20quiero%20cotizar%20refacciones%20de%3A%20Control%20de%20combusti%C3%B3n%20y%20flama" target="_blank" rel="noopener" data-ubicacion="refacciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.9-.9L3 20.5l1.6-4.8A8.4 8.4 0 0 1 3.6 11.5 8.5 8.5 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg> Cotizar por WhatsApp</a>
+        </div>
+        <div class="grupo">
+          <h3>Encendido y pilotos</h3>
+          <ul>
+            <li><span>Transformadores de ignición de 1 y 2 bornes</span></li>
+            <li><span>Electrodos de diferentes medidas</span></li>
+            <li><span>Cable para bujías de ignición</span></li>
+            <li><span>Capuchones rectos y a 90°</span></li>
+            <li><span>Módulo de ignición</span><code>S8610</code></li>
+            <li><span>Kit para flama intermitente</span><code>Y8610</code></li>
+            <li><span>Termopar</span><code>Q340A</code></li>
+            <li><span>Piloto de flama intermitente</span><code>Q345A</code></li>
+            <li><span>Piloto incandescente para SmartValve</span><code>Q3450</code></li>
+          </ul>
+          <a class="cotizar" href="https://wa.me/522223782136?text=Hola%2C%20quiero%20cotizar%20refacciones%20de%3A%20Encendido%20y%20pilotos" target="_blank" rel="noopener" data-ubicacion="refacciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.9-.9L3 20.5l1.6-4.8A8.4 8.4 0 0 1 3.6 11.5 8.5 8.5 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg> Cotizar por WhatsApp</a>
+        </div>
+        <div class="grupo">
+          <h3>Nivel de agua</h3>
+          <ul>
+            <li><span>Bujías de nivel</span></li>
+            <li><span>Control de nivel de columna, tipo pierna</span><code>Serie 157S</code></li>
+            <li><span>Control de nivel de flotador de bola</span><code>Serie 150S</code></li>
+            <li><span>Válvulas de nivel</span></li>
+          </ul>
+          <a class="cotizar" href="https://wa.me/522223782136?text=Hola%2C%20quiero%20cotizar%20refacciones%20de%3A%20Nivel%20de%20agua" target="_blank" rel="noopener" data-ubicacion="refacciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.9-.9L3 20.5l1.6-4.8A8.4 8.4 0 0 1 3.6 11.5 8.5 8.5 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg> Cotizar por WhatsApp</a>
+        </div>
+        <div class="grupo">
+          <h3>Válvulas y vapor</h3>
+          <ul>
+            <li><span>Válvulas de seguridad</span></li>
+            <li><span>Válvulas de aire</span></li>
+            <li><span>Válvulas eliminadoras de aire</span></li>
+            <li><span>Válvulas check y check de columpio</span></li>
+            <li><span>Trampas de vapor</span></li>
+            <li><span>Filtros tipo Y</span></li>
+          </ul>
+          <a class="cotizar" href="https://wa.me/522223782136?text=Hola%2C%20quiero%20cotizar%20refacciones%20de%3A%20V%C3%A1lvulas%20y%20vapor" target="_blank" rel="noopener" data-ubicacion="refacciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.9-.9L3 20.5l1.6-4.8A8.4 8.4 0 0 1 3.6 11.5 8.5 8.5 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg> Cotizar por WhatsApp</a>
+        </div>
+        <div class="grupo">
+          <h3>Medición y control</h3>
+          <ul>
+            <li><span>Manómetros según su necesidad</span></li>
+            <li><span>Instrumentos de medición de presión y temperatura</span></li>
+            <li><span>Sensores de temperatura</span></li>
+            <li><span>Termostatos</span></li>
+            <li><span>Controles de presión</span></li>
+          </ul>
+          <a class="cotizar" href="https://wa.me/522223782136?text=Hola%2C%20quiero%20cotizar%20refacciones%20de%3A%20Medici%C3%B3n%20y%20control" target="_blank" rel="noopener" data-ubicacion="refacciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.9-.9L3 20.5l1.6-4.8A8.4 8.4 0 0 1 3.6 11.5 8.5 8.5 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg> Cotizar por WhatsApp</a>
+        </div>
+      </div>
+      <div class="llamada-senales">
+        <p>¿No ve su pieza? Mándenos una foto de la placa o de la pieza.</p>
+        <a class="btn btn-rojo" href="https://wa.me/522223782136?text=Hola%2C%20busco%20esta%20refacci%C3%B3n%20para%20caldera%20%28adjunto%20foto%20de%20la%20placa%20o%20la%20pieza%29%3A" target="_blank" rel="noopener" data-ubicacion="refacciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.9-.9L3 20.5l1.6-4.8A8.4 8.4 0 0 1 3.6 11.5 8.5 8.5 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg> Enviar foto por WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion" id="senales" aria-labelledby="t-senales">
     <div class="envoltura">
       <div class="cabeza">
         <h2 id="t-senales">Señales de que su caldera necesita servicio</h2>
@@ -426,26 +529,27 @@ p{margin:0 0 1em}
       </ul>
       <div class="llamada-senales">
         <p>¿Reconoce alguna en su equipo?</p>
-        <a class="btn btn-rojo" href="tel:+522222205370" data-ubicacion="senales"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg> Llamar ahora</a>
+        <a class="btn btn-rojo" href="tel:+522223782136" data-ubicacion="senales"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg> Llamar ahora</a>
+        <a class="btn btn-linea" href="https://wa.me/522223782136?text=Hola%2C%20les%20escribo%20desde%20su%20sitio%20web." target="_blank" rel="noopener" data-ubicacion="senales"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.9-.9L3 20.5l1.6-4.8A8.4 8.4 0 0 1 3.6 11.5 8.5 8.5 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg> WhatsApp</a>
       </div>
     </div>
   </section>
 
-  <section class="seccion" id="proceso" aria-labelledby="t-proceso">
+  <section class="seccion alterna" id="proceso" aria-labelledby="t-proceso">
     <div class="envoltura">
       <div class="cabeza">
         <h2 id="t-proceso">Cómo trabajamos</h2>
         <p>Sin vueltas: nos cuenta qué pasa, revisamos el equipo y le entregamos un precio antes de empezar.</p>
       </div>
       <ol class="proceso">
-        <li><span class="num" aria-hidden="true">1</span><h3>Nos llama</h3><p>Cuéntenos qué equipo tiene y qué está fallando. Si es posible, tenga a la mano marca, capacidad y tipo de combustible.</p></li>
+        <li><span class="num" aria-hidden="true">1</span><h3>Nos llama o escribe</h3><p>Por teléfono o WhatsApp, cuéntenos qué equipo tiene y qué está fallando. Si es posible, tenga a la mano marca, capacidad y tipo de combustible.</p></li>
         <li><span class="num" aria-hidden="true">2</span><h3>Revisamos en sitio</h3><p>Acudimos a su planta, diagnosticamos el equipo y le entregamos una cotización con el alcance del trabajo.</p></li>
         <li><span class="num" aria-hidden="true">3</span><h3>Reparamos y probamos</h3><p>Hacemos el trabajo acordado y dejamos la caldera operando, con la prueba frente a su personal.</p></li>
       </ol>
     </div>
   </section>
 
-  <section class="seccion alterna" id="empresa" aria-labelledby="t-empresa">
+  <section class="seccion" id="empresa" aria-labelledby="t-empresa">
     <div class="envoltura empresa">
       <div class="texto">
         <h2 id="t-empresa">Un taller poblano de mantenimiento industrial</h2>
@@ -456,7 +560,7 @@ p{margin:0 0 1em}
           <div><dt>Ubicación</dt><dd>Col. Santa María, Puebla</dd></div>
           <div><dt>Cobertura</dt><dd>Puebla y toda la República</dd></div>
           <div><dt>Especialidad</dt><dd>Calderas de todo tipo</dd></div>
-          <div><dt>Teléfono</dt><dd><a href="tel:+522222205370" data-ubicacion="empresa">222 220 5370</a></dd></div>
+          <div><dt>Celular y WhatsApp</dt><dd><a href="tel:+522223782136" data-ubicacion="empresa">222 378 2136</a></dd></div>
         </dl>
       </div>
       <div class="foto-pendiente" role="img" aria-label="Espacio reservado para fotografía del taller">
@@ -465,7 +569,7 @@ p{margin:0 0 1em}
     </div>
   </section>
 
-  <section class="seccion" id="equipos" aria-labelledby="t-equipos">
+  <section class="seccion alterna" id="equipos" aria-labelledby="t-equipos">
     <div class="envoltura">
       <div class="cabeza">
         <h2 id="t-equipos">Dónde trabajan nuestras calderas</h2>
@@ -486,9 +590,14 @@ p{margin:0 0 1em}
     <div class="envoltura">
       <div>
         <h2 id="t-contacto">Solicite una visita</h2>
-        <p class="intro">La forma más rápida es llamar. Si prefiere, deje sus datos y le devolvemos la llamada.</p>
-        <a class="telefono-grande" href="tel:+522222205370" data-ubicacion="contacto">222 220 5370</a>
+        <p class="intro">Llámenos al celular. Si no le contestamos, mándenos un WhatsApp y le respondemos a la brevedad.</p>
+        <a class="telefono-grande" href="tel:+522223782136" data-ubicacion="contacto">222 378 2136</a>
+        <div class="acciones contacto-acciones">
+          <a class="btn btn-rojo" href="tel:+522223782136" data-ubicacion="contacto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg> Llamar</a>
+          <a class="btn btn-linea" href="https://wa.me/522223782136?text=Hola%2C%20les%20escribo%20desde%20su%20sitio%20web." target="_blank" rel="noopener" data-ubicacion="contacto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.9-.9L3 20.5l1.6-4.8A8.4 8.4 0 0 1 3.6 11.5 8.5 8.5 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg> Escribir por WhatsApp</a>
+        </div>
         <ul class="lista-contacto">
+          <li><span>Celular</span>222 378 2136 · llamadas y WhatsApp</li>
           <li><span>Dirección</span>Calle 50 Poniente 918, Col. Santa María, C.P. 72070, Puebla, Pue.</li>
           <li><span>Cobertura</span>Puebla, zona metropolitana y servicio en planta en todo México</li>
           <li><span>Horario</span>[PENDIENTE: confirmar horario de atención]</li>
@@ -534,7 +643,8 @@ p{margin:0 0 1em}
     <div>
       <h4>Contacto</h4>
       <ul>
-        <li><a href="tel:+522222205370" data-ubicacion="pie">222 220 5370</a></li>
+        <li><a href="tel:+522223782136" data-ubicacion="pie">222 378 2136</a></li>
+        <li><a href="https://wa.me/522223782136?text=Hola%2C%20les%20escribo%20desde%20su%20sitio%20web." target="_blank" rel="noopener" data-ubicacion="pie">WhatsApp</a></li>
         <li>Calle 50 Poniente 918<br>Col. Santa María, C.P. 72070<br>Puebla, Pue.</li>
       </ul>
     </div>
@@ -546,6 +656,7 @@ p{margin:0 0 1em}
         <li><a href="#servicios">Montaje e instalación</a></li>
         <li><a href="#servicios">Aislamiento de tuberías</a></li>
         <li><a href="#servicios">Intercambiadores de calor</a></li>
+        <li><a href="#refacciones">Refacciones y tubo flux</a></li>
       </ul>
     </div>
     <p class="legal">© <span id="anio">2026</span> Compañía Industrial Calderas Sánchez. Puebla, México.</p>
@@ -553,17 +664,17 @@ p{margin:0 0 1em}
 </footer>
 
 <nav class="barra-movil" aria-label="Contacto rápido">
-  <a class="btn btn-rojo" href="tel:+522222205370" data-ubicacion="barra_movil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg> Llamar</a>
-  <a class="btn btn-linea" href="#contacto" data-ubicacion="barra_movil">Pedir visita</a>
+  <a class="btn btn-rojo" href="tel:+522223782136" data-ubicacion="barra_movil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg> Llamar</a>
+  <a class="btn btn-linea" href="https://wa.me/522223782136?text=Hola%2C%20les%20escribo%20desde%20su%20sitio%20web." target="_blank" rel="noopener" data-ubicacion="barra_movil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.6 8.6 0 0 1-3.9-.9L3 20.5l1.6-4.8A8.4 8.4 0 0 1 3.6 11.5 8.5 8.5 0 0 1 12 3a8.4 8.4 0 0 1 9 8.5z"/></svg> WhatsApp</a>
 </nav>
 
 <script>
 /* ============ CONFIG — llenar cuando el cliente confirme ============ */
 const CONFIG = {
-  whatsapp: '',        // ej. '5222XXXXXXXX' → el formulario abrirá WhatsApp con la solicitud
+  whatsapp: '522223782136', // el formulario abre WhatsApp con la solicitud ya escrita
   formsubmitEmail: '', // ej. 'correo@dominio.com' → el formulario se enviará por FormSubmit
-  telefono: '222 220 5370',
-  telefonoLink: 'tel:+522222205370'
+  telefono: '222 378 2136',
+  telefonoLink: 'tel:+522223782136'
 };
 
 document.getElementById('anio').textContent = new Date().getFullYear();
