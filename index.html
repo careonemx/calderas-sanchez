@@ -175,6 +175,8 @@ p{margin:0 0 1em}
 /* Empresa */
 .empresa{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,72px);align-items:center}
 .empresa .texto p{color:#3A454C;max-width:34em}
+.foto-empresa{margin:0}
+.foto-empresa img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:var(--radio)}
 .foto-pendiente{aspect-ratio:4/3;border:2px dashed #9AA6AD;border-radius:var(--radio);display:grid;place-items:center;
   padding:2rem;text-align:center;color:var(--acero);font-size:.92rem;background:repeating-linear-gradient(135deg,transparent 0 14px,rgba(32,38,43,.03) 14px 28px)}
 .foto-pendiente b{display:block;color:var(--hierro);margin-bottom:.4rem;font-size:1rem}
@@ -574,9 +576,9 @@ p{margin:0 0 1em}
           <div><dt>Celular y WhatsApp</dt><dd><a href="tel:+522223782136" data-ubicacion="empresa">222 378 2136</a></dd></div>
         </dl>
       </div>
-      <div class="foto-pendiente" role="img" aria-label="Espacio reservado para fotografía del taller">
-        <div><b>Fotografía pendiente</b>Técnico de Calderas Sánchez trabajando en una caldera pirotubular en planta, con ropa de trabajo y equipo de seguridad. Horizontal 4:3, mínimo 1600 px de ancho. Archivo: <code>taller-calderas-sanchez-puebla.jpg</code></div>
-      </div>
+      <figure class="foto-empresa">
+        <img src="caldera-taller.jpg" alt="Frente de una caldera pirotubular con manómetro, nivel de agua y válvulas" width="1125" height="750" loading="lazy" decoding="async">
+      </figure>
     </div>
   </section>
 
